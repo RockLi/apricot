@@ -75,7 +75,7 @@ def usage():
 
 if __name__ == '__main__':
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "s:d:", ["stmt=", "level=", "ignore-pattern="])
+        opts, args = getopt.getopt(sys.argv[1:], "s:l:", ["stmt=", "level=", "ignore-pattern="])
     except getopt.GetoptError as err:
         print str(err)
         usage()
