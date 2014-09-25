@@ -7,7 +7,7 @@ Website: code-trick.com
 Version: 0.1-alpha
 
 Get the detailed import dependencies of your python script,
-mostly used to analyze unused importing.
+mostly used to analyze unrelevant modules importing.
 
 """
 
